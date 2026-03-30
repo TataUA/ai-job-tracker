@@ -4,14 +4,14 @@ reviews:
   review_status: true
 
   path_filters:
-    - "!**/.next/**"
-    - "!**/node_modules/**"
-    - "!**/coverage/**"
+    - '!**/.next/**'
+    - '!**/node_modules/**'
+    - '!**/coverage/**'
 
   path_instructions:
-    - path: "src/app/**"
+    - path: 'src/app/**'
       instructions: |
         Focus on readability, accessibility, and Next.js App Router best practices.
-    - path: ".github/workflows/**"
+    - path: '.github/workflows/**'
       instructions: |
         Focus on CI reliability and simplicity.

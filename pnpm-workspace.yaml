@@ -1,3 +1,6 @@
-ignoredBuiltDependencies:
-  - sharp
-  - unrs-resolver
+packages:
+  - client
+  - server
+allowBuilds:
+  sharp: true
+  unrs-resolver: false
